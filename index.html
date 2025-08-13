@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>la caótica</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon para modo light -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon light/apple-touch-icon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon light/favicon-32x32.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon light/favicon-16x16.png" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="favicon/favicon light/site.webmanifest" media="(prefers-color-scheme: light)">
+
+    <!-- Favicon para modo oscuro -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/favicon dark/apple-touch-icon.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon dark/favicon-32x32.png" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon dark/favicon-16x16.png" media="(prefers-color-scheme: dark)">
+    <link rel="manifest" href="favicon/favicon dark/site.webmanifest" media="(prefers-color-scheme: dark)">
+</head>
+<body id="body-portfolio">
+    <div class="custom-cursor" id="cursor">
+        <div id="cursor-interactive">
+            <svg viewBox="0 0 12.44 12.44"><g><polygon points="12.4,10.9 10.9,12.4 2.2,3.7 2.2,9.4 0,9.4 0,0 9.3,0 9.3,2.2 3.7,2.2"/></g></svg>
+        </div>
+        <div id="cursor-interactive-gallery">
+            <svg viewBox="0 0 16.5 16.5"><g><polygon points="16.5,7.1 16.5,9.3 9.4,9.3 9.4,16.5 7.2,16.5 7.2,9.3 0,9.3 0,7.1 7.2,7.1 7.2,0 9.4,0 9.4,7.1"/></g></svg>
+        </div>
+        <div id="cursor-interactive-expand">
+            <svg viewBox="0 0 13.2 13.2"><g><polygon points="6.6,11 6.6,13.2 0,13.2 0,6.6 2.2,6.6 2.2,11"/><polygon points="13.2,0 13.2,6.6 11,6.6 11,2.2 6.6,2.2 6.6,0"/></g></svg>
+        </div>
+    </div>
+
+    <div id="sign-scroll">
+        <span>Scroll</span>
+        <svg viewBox="0 0 16.5 13.2" id="arrow-scroll"><g><polygon points="0,7.7 0,5.5 12.3,5.5 8.3,1.6 9.9,0 16.5,6.6 9.9,13.2 8.3,11.7 12.3,7.7"/></g></svg>
+    </div>
+
+    <div id="sign-scroll-media">
+        <svg viewBox="0 0 26.4 33.1" id="arrow-scroll-media"><g><polygon points="11,0 15.4,0 15.4,24.6 23.3,16.7 26.4,19.8 13.2,33 0,19.8 3.1,16.7 11,24.6"/></g></svg>
+    </div>
+
+    <button id="interactive-start" class="interactive">
+        <svg viewBox="0 0 16.5 13.2" id="arrow-start"><g><polygon points="16.5,5.5 16.5,7.7 4.2,7.7 8.2,11.7 6.6,13.2 0,6.6 6.6,0 8.2,1.6 4.2,5.5"/></g></svg>
+    </button>
+
+    <button id="interactive-start-media" class="interactive">
+        <svg viewBox="0 0 13.2 16.5" id="arrow-start-media"><g><polygon points="7.7,16.5 5.5,16.5 5.5,4.2 1.6,8.2 0,6.6 6.6,0 13.2,6.6 11.7,8.2 7.7,4.2"/></g></svg>
+    </button>
+
+    <button id="interactive-expand-close" class="interactive">
+        <svg viewBox="0 0 33 33"><g><path d="M28.2,4.8c-6.5-6.4-16.9-6.4-23.3,0c-6.4,6.4-6.4,16.9,0,23.3c6.5,6.4,16.9,6.4,23.3,0C34.6,21.7,34.6,11.3,28.2,4.8z M23.1,21.6l-1.5,1.5L16.5,18l-5.1,5.1l-1.5-1.5l5.1-5.1l-5.1-5.1l1.5-1.5l5.1,5.1l5.1-5.1l1.5,1.5L18,16.5L23.1,21.6z"/></g></svg>
+    </button>
+    
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" id="portfolio" class="interactive">portfolio</a></li>
+                <li><a href="info.html" id="info" class="interactive">info</a></li>
+                <li><a href="contacto.html" id="contacto" class="interactive">contacto</a></li>
+                <li><p id="space">-</p></li>
+            </ul>
+            <button id="menu-media-toggle" class="interactive">
+                <svg viewBox="0 0 33 33"><g><path d="M28.2,4.8c-6.4-6.4-16.9-6.4-23.3,0c-6.4,6.4-6.4,16.9,0,23.3c6.4,6.4,16.9,6.4,23.3,0C34.6,21.7,34.6,11.3,28.2,4.8z M23.1,23.1H9.9v-2.2h13.2V23.1z M23.1,17.6H9.9v-2.2h13.2V17.6z M23.1,12.1H9.9V9.9h13.2V12.1z"/></g></svg>
+            </button>
+        </nav>
+    </header>
+    
+    <main id="main-portfolio">
+        <div class="row">
+            <div class="image-container">
+                <a href="#imagen6" class="interactive-expand">
+                    <img src="imagenes/Tangle Tezzer/1.jpg" alt="Tangle Teezer" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen8" class="interactive-expand">
+                    <img src="imagenes/Mari Paz/1.jpg" alt="Mari Paz" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen8" class="interactive-expand">
+                    <img src="imagenes/The Ordinary/1.jpg" alt="The Ordinary" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="galería.html" class="interactive-gallery">
+                    <img src="imagenes/La Vieja Fábrica/1.jpg" alt="La Vieja Fábrica" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen4" class="interactive-expand">
+                    <img src="imagenes/El Brezal/1.jpg" alt="El Brezal" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen1" class="interactive-expand">
+                    <img src="imagenes/Abbacino/1.jpg" alt="Abbacino" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen5" class="interactive-expand">
+                    <img src="imagenes/Barebells/1.jpg" alt="Barebells" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen8" class="interactive-expand">
+                    <img src="imagenes/Singularu/1.jpg" alt="Singularu" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen8" class="interactive-expand">
+                    <img src="imagenes/Pardo 1927/1.jpg" alt="Pardo 1927" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen3" class="interactive-expand">
+                    <img src="imagenes/Finca Del Tuerto/1.jpg" alt="Finca Del Tuerto" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen7" class="interactive-expand">
+                    <img src="imagenes/El Goru/1.jpg" alt="El Goru" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+            <div class="image-container">
+                <a href="#imagen8" class="interactive-expand">
+                    <img src="imagenes/El Pozo/1.jpg" alt="El Pozo" class="image-data">
+                </a>
+                <div class="image-data-media"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><p id="©">© 2025<br>la caótica</p></li>
+                <li>
+                    <a href="index.html" class="interactive">
+                        <svg viewBox="0 0 756 133.52" id="logo"><g><path d="M257.1,123.6q-11.15,9.59-28.66,9.58-20.25,0-32.49-12.48T183.7,87.53q0-21.37,12.33-34.36t32.75-13c11.68,0,21.29,2.88,28.57,9,7.78,6.52,11,13.35,12.59,22.56H246.16c-2.31-8.46-7.46-13.42-17.21-13.42q-9.87,0-15.4,7.61T208,87q0,13.16,5.36,20.43t15.06,7.26c10.54,0,16-5.79,18.71-16h23.3C268.42,108.81,264.52,117.22,257.1,123.6Z"/><path d="M313.37,79.46a109.73,109.73,0,0,0,12.39-1.33,28.75,28.75,0,0,0,8.46-2.53,7.76,7.76,0,0,0,4.34-7.39q0-11.79-15.82-11.8c-5.56,0-10.16,2-12.73,4.62-2.29,2.36-4.09,5.61-4.62,10.68H282.77c1.36-19.83,14.91-31.54,40.65-31.54q38.26,0,38.27,28.72V131H338.56V120.08h0c-5,8.11-18.43,13.44-28.41,13.44q-14.62,0-23-7.1t-8.33-19.57S277.81,81.6,313.37,79.46Zm8,13.2q-10.72,1.71-13.95,4.27a11.18,11.18,0,0,0-3.74,8.89,11.07,11.07,0,0,0,3.49,8.64q3.48,3.15,9.78,3.16,9.69,0,15.56-5.22T338.39,98V88Q334.13,90.6,321.38,92.66Z"/><path d="M72.11,79.46A109.73,109.73,0,0,0,84.5,78.13,28.85,28.85,0,0,0,93,75.6a7.76,7.76,0,0,0,4.34-7.39q0-11.79-15.82-11.8c-5.56,0-10.16,2-12.74,4.62-2.28,2.36-4.08,5.61-4.61,10.68H41.51c1.36-19.83,14.91-31.54,40.65-31.54q38.27,0,38.27,28.72V131H97.29V120.08h0c-5,8.11-18.42,13.44-28.4,13.44q-14.62,0-23-7.1t-8.34-19.57S36.54,81.6,72.11,79.46Zm8,13.2q-10.73,1.71-14,4.27a11.15,11.15,0,0,0-3.74,8.89,11.1,11.1,0,0,0,3.48,8.64q3.5,3.15,9.78,3.16,9.7,0,15.57-5.22T97.13,98V88Q92.87,90.6,80.12,92.66Z"/><path d="M651.4,123.6q-11.13,9.59-28.66,9.58-20.24,0-32.48-12.48T578,87.53q0-21.37,12.33-34.36t32.74-13c11.68,0,21.3,2.88,28.58,9,7.78,6.52,11,13.35,12.59,22.56H640.47c-2.32-8.46-7.47-13.42-17.22-13.42q-9.86,0-15.39,7.61T602.33,87q0,13.16,5.36,20.43t15,7.26c10.55,0,16-5.79,18.71-16h23.3C662.72,108.81,658.83,117.22,651.4,123.6Z"/><path d="M707.68,79.46a109.73,109.73,0,0,0,12.39-1.33,28.75,28.75,0,0,0,8.46-2.53,7.76,7.76,0,0,0,4.34-7.39q0-11.79-15.82-11.8c-5.56,0-10.16,2-12.73,4.62-2.29,2.36-4.09,5.61-4.62,10.68H677.08c1.36-19.83,14.91-31.54,40.65-31.54Q756,40.17,756,68.89V131H732.87V120.08h0c-5,8.11-18.43,13.44-28.41,13.44q-14.62,0-23-7.1t-8.33-19.57S672.12,81.6,707.68,79.46Zm8,13.2q-10.73,1.71-14,4.27a11.18,11.18,0,0,0-3.74,8.89,11.07,11.07,0,0,0,3.49,8.64q3.48,3.15,9.78,3.16,9.69,0,15.56-5.22T732.7,98V88Q728.44,90.6,715.69,92.66Z"/><path d="M388.24,53.08q12.42-12.73,33-12.74,20.75,0,33.16,12.74T466.82,87q0,21-12.42,33.76t-33.16,12.74q-20.6,0-33-12.74T375.82,87Q375.82,65.81,388.24,53.08ZM405,107.19q5,8,16.25,8,11.38,0,16.41-8t5-20.17q0-12.15-5-20.26t-16.41-8.12Q410,58.64,405,66.76T400,87Q400,99.16,405,107.19Z"/><path d="M527.63,59.69H509.77v40.73c0,2.61.05,4.51.17,5.7a9.51,9.51,0,0,0,1.19,3.66,4.94,4.94,0,0,0,3.15,2.46,23.3,23.3,0,0,0,6,.6h7.32v18.29H513q-15.83,0-21.52-5.53t-5.7-21.34V59.69H471.16V43.36h14.62V16.83h24V43.36h17.86Z"/><path d="M564,30.44H539.87V10H564Zm0,100.69H539.87V43.36H564Z"/><path d="M24.15,131H0V9.85H24.15Z"/><polygon points="426.98 0 454.09 0 430.31 28.39 416.96 28.39 426.98 0"/></g></svg>
+                    </a>
+                </li>
+                <li><a href="https://www.instagram.com/la__caotica/" id="instagram" class="interactive">instagram</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
